@@ -61,7 +61,7 @@ app.use(function(err, req, res, next) {
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
 
-const dev_db_url = 'mongodb+srv://Daseka:Gregorio2000@cluster0.uk3fyfq.mongodb.net/local_library?retryWrites=true&w=majority&appName=Cluster0'
+const dev_db_url = 'mongodb+srv://asd:asd@cluster0.uk3fyfq.mongodb.net/local_library?retryWrites=true&w=majority&appName=Cluster0'
 const mongoDB = process.env.MONGODB_URI || dev_db_url;
 
 main().catch((err) => console.log(err));
